@@ -11,6 +11,6 @@
     group: mongod
     shell: /bin/false
     home: /var/lib/mongod
-    create_home: no
+    createhome: no
     system: yes
     state: present
