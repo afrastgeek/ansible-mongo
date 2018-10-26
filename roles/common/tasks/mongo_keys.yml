@@ -1,6 +1,6 @@
 ---
 - name: Generate Keyfile
-  command: openssl rand -base64 756 -out /tmp/keyfile.pem
+  command: openssl rand -base64 -out /tmp/keyfile.pem 756
   delegate_to: "{{ item }}"
   with_items:
     - localhost
